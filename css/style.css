@@ -5,6 +5,7 @@
 .navbar{
     top: 0;
     position: sticky;
+    padding: 0 13%;
     height: 100px;
     z-index: 100;
     background-color: aliceblue;
@@ -40,6 +41,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    background-color: rgb(234, 236, 238);
+    padding: 0 13%;
 }
 .hometext h1{
    line-height: 8rem;
@@ -58,12 +61,17 @@ body{
 h2{
     color: #5C0D54;
     text-align: center;
+    padding: 5%;
 }
 .aboutinfo{
     display: flex;
     align-items: center;
-    line-height: 4rem;
+    line-height: 2.4rem;
     justify-content: space-around;
+}
+.about-text{
+  width: 50%;
+  height: 40%;
 }
 .about-image{
     border: 10px solid #5C0D54 ;
@@ -75,6 +83,24 @@ h2{
 
 #services{
   padding: 7% 15%;
+  background-color: aliceblue;
+}
+#blogs{
+  padding: 7% 15%;
+  background-color: aliceblue;
+}
+#certificates{
+  padding: 7% 19%;
+}
+#portfolio{
+  padding: 4% 0;
+  background-color: rgb(234, 236, 238);
+}
+#about{
+  padding: 5% 13%;
+}
+#contact{
+  background-color: aliceblue;
 }
 .feature-box{
   text-align: center;
@@ -97,55 +123,7 @@ h3{
     
 }
 
-  .flip-card {
-    background-color: transparent;
-    width: 400px;
-    height: 400px;
-    perspective: 1000px;
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    justify-content: flex-end;
-    max-height: 400px;
-    border-radius: 5px;
-    margin: 10px;
-    padding: 10px;
-    width: 100%;
-    z-index: 1;
-  }
   
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  }
-  
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-  
-  .flip-card-front {
-    background-color: #bbb;
-    color: black;
-  }
-  
-  .flip-card-back {
-    background-color: white;
-    color: black;
-    transform: rotateY(180deg);
-  }
   .main-cont{
     align-content: center;
 
@@ -186,6 +164,7 @@ h3{
     display: flex;
     flex: row;
     justify-content: space-around;
+    padding-bottom: 40px;
   }
 
   footer{
