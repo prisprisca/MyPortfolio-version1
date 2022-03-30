@@ -9,7 +9,7 @@
     height: 100px;
     z-index: 100;
     background-color: aliceblue;
-  width: 100%;
+    width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .navbar-brand{
@@ -35,13 +35,15 @@ ul a li{
     display: inline-block;
 }
 body{
-    background-color: #eeee;
+  background-color: #eee;
+   
 }
 #home{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     background-color: rgb(234, 236, 238);
+    /* background-color: linear-gradient (rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)); */
     padding: 0 13%;
 }
 .hometext h1{
